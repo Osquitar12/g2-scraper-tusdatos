@@ -1,0 +1,41 @@
+Documento de Arquitectura
+Motor de Extracción G2.com — Prueba Técnica Tusdatos.co
+Mayo 2024
+1. Estrategia elegida
+Se optó por Playwright con Chromium en modo headless como motor de navegación, en lugar de soluciones basadas en HTTP puro (requests, httpx) o Selenium. La razón principal es que G2.com renderiza su contenido dinámicamente mediante JavaScript: sin un navegador real que ejecute el JS, las categorías y subcategorías sencillamente no aparecen en la respuesta.
+
+La sesión de navegación se mantiene única durante las 100 iteraciones. Esto es intencional: una sesión continua preserva cookies y el estado de la sesión, comportándose como un usuario real que navega el sitio de forma prolongada. Abrir y cerrar el navegador en cada iteración, además de ser más lento, genera patrones de tráfico atípicos más fáciles de detectar.
+
+2. Por qué garantiza durabilidad
+Evasión de detección
+G2.com detecta bots mediante señales del navegador y patrones de tráfico. Se aplicaron tres capas de mitigación:
+•	Se oculta el atributo navigator.webdriver mediante un script de inicialización inyectado antes de cualquier carga de página, que es la señal más básica que revela un navegador automatizado.
+•	Se simulan pausas aleatorias entre 1.5 y 3.0 segundos entre cada solicitud, con scroll suave de la página, replicando el comportamiento de un usuario humano.
+•	Se rota el User-Agent cada 25 iteraciones sobre un pool de 4 agentes reales (Chrome Windows, Chrome macOS, Firefox, Chrome Linux), evitando que un único fingerprint quede expuesto durante toda la ejecución.
+
+Recuperación ante fallos
+Cuando una solicitud falla —por timeout, error de red o respuesta inesperada— el scraper no se detiene. Se aplica un sistema de reintentos con backoff exponencial:
+•	Primer reintento: espera ~4 segundos antes de reintentar.
+•	Segundo reintento: espera ~8 segundos.
+•	Se añade jitter aleatorio (±0.5s) a cada espera para romper patrones rítmicos detectables.
+•	Si los tres intentos fallan, la iteración se registra como 'failed' y el flujo continúa normalmente con la siguiente URL, sin abortar la ejecución.
+Esto garantiza que un bloqueo puntual o una caída momentánea del sitio no interrumpa las 100 iteraciones.
+
+Resiliencia ante cambios en el DOM
+La extracción de la estructura de categorías usa una cadena de selectores en orden de especificidad decreciente: si el selector principal falla porque G2 cambió su layout, el scraper intenta selectores alternativos y, como último recurso, extrae todos los links que apunten a /categories/ en la página. Esto asegura que la solución no rompa por un rediseño del sitio.
+
+3. Qué se extrae en cada iteración
+Cada una de las 100 iteraciones registra, por cada subcategoría visitada:
+•	category — categoría principal de G2 (ej.: Analytics, CRM, HR)
+•	subcategory — nombre de la subcategoría
+•	url — URL canónica en g2.com/categories/
+•	page_title — título HTML de la página, como confirmación de carga exitosa
+•	page_loaded — booleano que indica si la página respondió correctamente
+•	status — success, retry_success o failed
+•	attempts — número de intentos realizados
+•	latency_s — tiempo total de la iteración en segundos
+•	timestamp — fecha y hora exacta de la extracción
+
+4. Salidas generadas
+•	g2_dataset.csv — 100 filas normalizadas con los campos anteriores.
+•	performance_report.json — tasa de éxito, latencia promedio, P95, mínima, máxima, recuperaciones por retry y estrategia de excepciones aplicada.

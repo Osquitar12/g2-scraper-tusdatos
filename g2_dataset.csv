@@ -1,0 +1,101 @@
+iteration,category,subcategory,url,page_title,page_loaded,status,attempts,latency_s,timestamp
+1,G2 Categories,AI Chatbots Software,https://www.g2.com/categories/ai-chatbots,g2.com,True,success,1,2.869,2026-04-27T16:57:43.801250
+2,G2 Categories,CRM Software,https://www.g2.com/categories/crm,g2.com,True,success,1,2.853,2026-04-27T16:57:48.451819
+3,G2 Categories,Project Management Software,https://www.g2.com/categories/project-management,g2.com,True,success,1,2.257,2026-04-27T16:57:52.251334
+4,G2 Categories,Expense Management Software,https://www.g2.com/categories/expense-management,g2.com,True,success,1,2.385,2026-04-27T16:57:56.876201
+5,G2 Categories,Video Conferencing Software,https://www.g2.com/categories/video-conferencing,g2.com,True,success,1,2.073,2026-04-27T16:58:00.942958
+6,G2 Categories,Online Backup Software,https://www.g2.com/categories/online-backup,g2.com,True,success,1,2.543,2026-04-27T16:58:05.683032
+7,G2 Categories,E-Commerce Platforms,https://www.g2.com/categories/e-commerce-platforms,g2.com,True,success,1,2.949,2026-04-27T16:58:10.397309
+8,G2 Categories,Accounting Software,https://www.g2.com/categories/accounting,g2.com,True,success,1,2.121,2026-04-27T16:58:14.066599
+9,G2 Categories,ERP Systems,https://www.g2.com/categories/erp-systems,g2.com,True,success,1,2.345,2026-04-27T16:58:18.320340
+10,G2 Categories,Marketing Automation Software,https://www.g2.com/categories/marketing-automation,g2.com,True,success,1,2.271,2026-04-27T16:58:22.709358
+11,G2 Categories,AI Agents,https://www.g2.com/categories/agentic-ai,g2.com,True,success,1,2.465,2026-04-27T16:58:27.383602
+12,G2 Categories,Pricing Software,https://www.g2.com/categories/pricing,g2.com,True,success,1,2.543,2026-04-27T16:58:32.131303
+13,G2 Categories,Salesforce CRM Document Generation Software,https://www.g2.com/categories/salesforce-crm-document-generation,g2.com,True,success,1,2.15,2026-04-27T16:58:36.542432
+14,G2 Categories,Local SEO Software,https://www.g2.com/categories/local-seo,g2.com,True,success,1,2.813,2026-04-27T16:58:41.471467
+15,G2 Categories,Creative Management Platforms,https://www.g2.com/categories/creative-management-platforms,g2.com,True,success,1,2.971,2026-04-27T16:58:45.977586
+16,G2 Categories,Conversation Intelligence Software,https://www.g2.com/categories/conversation-intelligence,g2.com,True,success,1,2.972,2026-04-27T16:58:51.236869
+17,G2 Categories,Product Analytics Software,https://www.g2.com/categories/product-analytics,g2.com,True,success,1,2.366,2026-04-27T16:58:55.961999
+18,G2 Categories,See All CRM Software,https://www.g2.com/categories/crm,g2.com,True,success,1,2.787,2026-04-27T16:59:01.110149
+19,G2 Categories,Relational Databases,https://www.g2.com/categories/relational-databases,g2.com,True,success,1,2.284,2026-04-27T16:59:05.148786
+20,G2 Categories,Continuous Delivery Tools,https://www.g2.com/categories/continuous-delivery-tools,g2.com,True,success,1,2.357,2026-04-27T16:59:09.914131
+21,G2 Categories,Mobile Development Platforms,https://www.g2.com/categories/mobile-development-platforms,g2.com,True,success,1,2.489,2026-04-27T16:59:14.400802
+22,G2 Categories,Mobile Application Management Software,https://www.g2.com/categories/mobile-application-management,g2.com,True,success,1,2.728,2026-04-27T16:59:19.422545
+23,G2 Categories,IT Asset Management Software,https://www.g2.com/categories/it-asset-management,g2.com,True,success,1,2.184,2026-04-27T16:59:23.179961
+24,G2 Categories,Workplace Innovation Platforms,https://www.g2.com/categories/workplace-innovation-platforms,g2.com,True,success,1,2.711,2026-04-27T16:59:28.136711
+25,G2 Categories,See All Infrastructure as a Service (IaaS) Providers,https://www.g2.com/categories/infrastructure-as-a-service-iaas,g2.com,True,success,1,2.32,2026-04-27T16:59:32.736656
+26,G2 Categories,Payment Gateways,https://www.g2.com/categories/payment-gateways,g2.com,True,success,1,2.493,2026-04-27T16:59:37.484728
+27,G2 Categories,Accounts Payable Automation Software,https://www.g2.com/categories/ap-automation,g2.com,True,success,1,2.657,2026-04-27T16:59:42.639317
+28,G2 Categories,Subscription Revenue Management Software,https://www.g2.com/categories/subscription-revenue-management,g2.com,True,success,1,2.946,2026-04-27T16:59:48.006581
+29,G2 Categories,Contact Center Knowledge Base Software,https://www.g2.com/categories/contact-center-knowledge-base,g2.com,True,success,1,2.258,2026-04-27T16:59:52.758667
+30,G2 Categories,Discrete ERP Software,https://www.g2.com/categories/discrete-erp,g2.com,True,success,1,2.254,2026-04-27T16:59:56.827265
+31,G2 Categories,Asset Tracking Software,https://www.g2.com/categories/asset-tracking,g2.com,True,success,1,2.582,2026-04-27T17:00:01.354235
+32,G2 Categories,See All ERP Systems,https://www.g2.com/categories/erp-systems,g2.com,True,success,1,2.176,2026-04-27T17:00:05.750470
+33,G2 Categories,Email Software,https://www.g2.com/categories/email,g2.com,True,success,1,2.739,2026-04-27T17:00:10.465150
+34,G2 Categories,Screen and Video Capture Software,https://www.g2.com/categories/screen-and-video-capture,g2.com,True,success,1,2.025,2026-04-27T17:00:14.429574
+35,G2 Categories,Emergency Notification Software,https://www.g2.com/categories/emergency-notification,g2.com,True,success,1,2.535,2026-04-27T17:00:19.379265
+36,G2 Categories,HR Analytics Software,https://www.g2.com/categories/hr-analytics,g2.com,True,success,1,2.666,2026-04-27T17:00:23.969890
+37,G2 Categories,OCR Software,https://www.g2.com/categories/ocr,g2.com,True,success,1,2.816,2026-04-27T17:00:29.022627
+38,G2 Categories,Digital Adoption Platforms,https://www.g2.com/categories/digital-adoption-platform,g2.com,True,success,1,2.811,2026-04-27T17:00:33.894611
+39,G2 Categories,See All HR Software,https://www.g2.com/categories/hr,g2.com,True,success,1,2.623,2026-04-27T17:00:38.519929
+40,G2 Categories,Media Sales Software,https://www.g2.com/categories/media-sales-software,g2.com,True,success,1,2.528,2026-04-27T17:00:42.610641
+41,G2 Categories,Trade Show and Exhibition Solutions Software,https://www.g2.com/categories/trade-show-and-exhibition-solutions,g2.com,True,success,1,2.728,2026-04-27T17:00:47.593355
+42,G2 Categories,Autonomous Sourcing,https://www.g2.com/categories/autonomous-sourcing,g2.com,True,success,1,2.619,2026-04-27T17:00:51.768351
+43,G2 Categories,AI Presentation Tools,https://www.g2.com/categories/ai-presentation-tools,g2.com,True,success,1,2.843,2026-04-27T17:00:56.112384
+44,G2 Categories,Legal Workflow Automation Software,https://www.g2.com/categories/legal-workflow-automation,g2.com,True,success,1,2.106,2026-04-27T17:00:59.791474
+45,G2 Categories,Ambient AI Scribe Platforms Software,https://www.g2.com/categories/ambient-ai-scribe-platforms,g2.com,True,success,1,2.387,2026-04-27T17:01:04.638361
+46,G2 Categories,Tax Software,https://www.g2.com/categories/tax-software,g2.com,True,success,1,2.152,2026-04-27T17:01:08.591984
+47,G2 Categories,Manufacturing,https://www.g2.com/categories/manufacturing,g2.com,True,success,1,2.101,2026-04-27T17:01:13.075514
+48,G2 Categories,Collaborative Research Writing Tools Software,https://www.g2.com/categories/collaborative-research-writing-tools,g2.com,True,success,1,2.539,2026-04-27T17:01:17.217811
+49,G2 Categories,Stakeholder Relationship Management Software,https://www.g2.com/categories/stakeholder-relationship-management-software,g2.com,True,success,1,2.766,2026-04-27T17:01:22.124343
+50,G2 Categories,Active Learning Tools,https://www.g2.com/categories/active-learning-tools,g2.com,True,success,1,2.818,2026-04-27T17:01:27.360509
+51,G2 Categories,AI Agent Builders Software,https://www.g2.com/categories/ai-agent-builders,g2.com,True,success,1,2.167,2026-04-27T17:01:31.499066
+52,G2 Categories,AI Agents,https://www.g2.com/categories/ai-agents,g2.com,True,success,1,2.075,2026-04-27T17:01:35.280275
+53,G2 Categories,AI Agents For Business Operations,https://www.g2.com/categories/ai-agents-for-business-operations,g2.com,True,success,1,2.316,2026-04-27T17:01:39.122574
+54,G2 Categories,AI Agents for HR Software,https://www.g2.com/categories/ai-agents-for-hr,g2.com,True,success,1,2.26,2026-04-27T17:01:43.529309
+55,G2 Categories,AI Customer Support Agents Software,https://www.g2.com/categories/ai-customer-support-agents,g2.com,True,success,1,2.742,2026-04-27T17:01:47.779311
+56,G2 Categories,AI IT Agents Software,https://www.g2.com/categories/ai-it-agents,g2.com,True,success,1,2.791,2026-04-27T17:01:52.108868
+57,G2 Categories,AI SDRs Software,https://www.g2.com/categories/ai-sdrs,g2.com,True,success,1,2.16,2026-04-27T17:01:56.590980
+58,G2 Categories,Conversational Interface Agents Software,https://www.g2.com/categories/conversational-interface-agents,g2.com,True,success,1,2.449,2026-04-27T17:02:01.270887
+59,G2 Categories,AI Avatar Generators,https://www.g2.com/categories/ai-avatar-generators,g2.com,True,success,1,2.433,2026-04-27T17:02:05.390013
+60,G2 Categories,AI Gateways Software,https://www.g2.com/categories/ai-gateways,g2.com,True,success,1,2.367,2026-04-27T17:02:09.656497
+61,G2 Categories,AI Governance Tools,https://www.g2.com/categories/ai-governance-tools,g2.com,True,success,1,2.844,2026-04-27T17:02:14.898742
+62,G2 Categories,AI Note-Taking Software,https://www.g2.com/categories/ai-note-taking-software,g2.com,True,success,1,2.354,2026-04-27T17:02:18.832887
+63,G2 Categories,AI Orchestration Software,https://www.g2.com/categories/ai-orchestration,g2.com,True,success,1,2.668,2026-04-27T17:02:23.649094
+64,G2 Categories,AI Search Visibility Optimization Tools Software,https://www.g2.com/categories/ai-search-visibility-optimization-tools,g2.com,True,success,1,2.625,2026-04-27T17:02:28.426253
+65,G2 Categories,AI Security Posture Management (AI-SPM) Tools Software,https://www.g2.com/categories/ai-security-posture-management-ai-spm-tools,g2.com,True,success,1,3.031,2026-04-27T17:02:33.373301
+66,G2 Categories,AI Security Solutions Software,https://www.g2.com/categories/ai-security-solutions,g2.com,True,success,1,3.014,2026-04-27T17:02:38.707668
+67,G2 Categories,AI Storyboard Generators Software,https://www.g2.com/categories/ai-storyboard-generators,g2.com,True,success,1,2.56,2026-04-27T17:02:43.542640
+68,G2 Categories,AI Voice Assistants,https://www.g2.com/categories/ai-voice-assistants,g2.com,True,success,1,2.761,2026-04-27T17:02:47.939353
+69,G2 Categories,AI Voice Dictation,https://www.g2.com/categories/ai-voice-dictation,g2.com,True,success,1,2.691,2026-04-27T17:02:52.634001
+70,G2 Categories,AI Writing Assistants,https://www.g2.com/categories/ai-writing-assistant,g2.com,True,success,1,2.372,2026-04-27T17:02:57.147993
+71,G2 Categories,Answer Engine Optimization (AEO) Tools,https://www.g2.com/categories/answer-engine-optimization-aeo,g2.com,True,success,1,2.898,2026-04-27T17:03:02.529665
+72,G2 Categories,Conversational AI Survey Platforms,https://www.g2.com/categories/conversational-ai-survey-platforms,g2.com,True,success,1,2.768,2026-04-27T17:03:07.774916
+73,G2 Categories,Conversational Intelligence Software,https://www.g2.com/categories/conversational-intelligence,g2.com,True,success,1,2.571,2026-04-27T17:03:12.343187
+74,G2 Categories,Bot Platforms,https://www.g2.com/categories/bot-platforms,g2.com,True,success,1,2.356,2026-04-27T17:03:16.508476
+75,G2 Categories,Chatbots Software,https://www.g2.com/categories/chatbots,g2.com,True,success,1,2.902,2026-04-27T17:03:21.911276
+76,G2 Categories,Natural Language Processing (NLP) Software,https://www.g2.com/categories/natural-language-processing-nlp,g2.com,True,success,1,2.377,2026-04-27T17:03:26.035247
+77,G2 Categories,Natural Language Generation (NLG) Software,https://www.g2.com/categories/natural-language-generation-nlg,g2.com,True,success,1,4.165,2026-04-27T17:03:32.499662
+78,G2 Categories,Natural Language Processing (NLP) Platforms Software,https://www.g2.com/categories/natural-language-processing-nlp-platforms,g2.com,True,success,1,2.416,2026-04-27T17:03:37.410634
+79,G2 Categories,Natural Language Understanding (NLU) Software,https://www.g2.com/categories/natural-language-understanding-nlu,g2.com,True,success,1,2.972,2026-04-27T17:03:42.122520
+80,G2 Categories,Data Labeling Software,https://www.g2.com/categories/data-labeling,g2.com,True,success,1,2.997,2026-04-27T17:03:47.175598
+81,G2 Categories,Data Modeling,https://www.g2.com/categories/data-modeling,g2.com,True,success,1,2.103,2026-04-27T17:03:50.788047
+82,G2 Categories,Data Science and Machine Learning Platforms,https://www.g2.com/categories/data-science-and-machine-learning-platforms,g2.com,True,success,1,2.081,2026-04-27T17:03:55.167776
+83,G2 Categories,Deep Learning Software,https://www.g2.com/categories/deep-learning,g2.com,True,success,1,3.079,2026-04-27T17:04:00.581909
+84,G2 Categories,Artificial Neural Network Software,https://www.g2.com/categories/artificial-neural-network,g2.com,True,success,1,2.701,2026-04-27T17:04:05.582657
+85,G2 Categories,Image Recognition Software,https://www.g2.com/categories/image-recognition,g2.com,True,success,1,2.502,2026-04-27T17:04:09.810728
+86,G2 Categories,Voice Recognition Software,https://www.g2.com/categories/voice-recognition,g2.com,True,success,1,2.796,2026-04-27T17:04:14.126191
+87,G2 Categories,Emerging AI Software,https://www.g2.com/categories/emerging-ai-software,g2.com,True,success,1,2.21,2026-04-27T17:04:18.285279
+88,G2 Categories,Emotion AI Software,https://www.g2.com/categories/emotion-ai,g2.com,True,success,1,2.08,2026-04-27T17:04:22.147371
+89,G2 Categories,Generative AI Software,https://www.g2.com/categories/generative-ai,g2.com,True,success,1,2.556,2026-04-27T17:04:26.518694
+90,G2 Categories,AI App Builder Software,https://www.g2.com/categories/ai-app-builder,g2.com,True,success,1,2.338,2026-04-27T17:04:31.147260
+91,G2 Categories,AI AppSec Assistants,https://www.g2.com/categories/ai-appsec-assistants,g2.com,True,success,1,2.523,2026-04-27T17:04:35.363772
+92,G2 Categories,AI Chatbots Software,https://www.g2.com/categories/ai-chatbots,g2.com,True,success,1,2.356,2026-04-27T17:04:39.990053
+93,G2 Categories,AI Code Generation Software,https://www.g2.com/categories/ai-code-generation,g2.com,True,success,1,2.158,2026-04-27T17:04:44.490016
+94,G2 Categories,AI Coding Assistants Software,https://www.g2.com/categories/ai-coding-assistants,g2.com,True,success,1,2.306,2026-04-27T17:04:48.567185
+95,G2 Categories,AI Content Creation Platforms Software,https://www.g2.com/categories/ai-content-creation-platforms,g2.com,True,success,1,2.988,2026-04-27T17:04:53.804271
+96,G2 Categories,AI Image Generators Software,https://www.g2.com/categories/ai-image-generators,g2.com,True,success,1,2.292,2026-04-27T17:04:58.494895
+97,G2 Categories,AI SDK Software,https://www.g2.com/categories/ai-sdk,g2.com,True,success,1,2.737,2026-04-27T17:05:03.418386
+98,G2 Categories,AI Search & Retrieval Infrastructure Platforms Software,https://www.g2.com/categories/ai-search-retrieval-infrastructure-platforms,g2.com,True,success,1,2.433,2026-04-27T17:05:08.314088
+99,G2 Categories,AI Software Testing Tools,https://www.g2.com/categories/ai-software-testing-tools,g2.com,True,success,1,2.405,2026-04-27T17:05:12.296342
+100,G2 Categories,Generative AI Infrastructure Software,https://www.g2.com/categories/generative-ai-infrastructure,g2.com,True,success,1,2.74,2026-04-27T17:05:16.933917

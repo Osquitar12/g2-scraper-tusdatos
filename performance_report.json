@@ -1,0 +1,15 @@
+{
+  "started_at": "2026-04-27T16:56:05.097989",
+  "finished_at": "2026-04-27T17:05:18.930727",
+  "total_iterations": 100,
+  "successes": 100,
+  "failures": 0,
+  "success_rate_pct": 100.0,
+  "retry_recoveries": 0,
+  "avg_latency_s": 2.545,
+  "p95_latency_s": 2.988,
+  "min_latency_s": 2.025,
+  "max_latency_s": 4.165,
+  "exception_strategy": "Backoff exponencial: 2s, 4s, 8s (+jitter). Pausa 4-7s tras fallo total.",
+  "user_agent_rotation": "Cada 25 iteraciones"
+}
